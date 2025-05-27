@@ -17,7 +17,7 @@ function escaparHTML(texto) {
 
 function normalizar(texto) {
     return texto
-       
+        .toLowerCase()
         .normalize("NFD")
         .replace(/[\u0300-\u036f]/g, "")  // Elimina acentos
         .replace(/\n/g, "")              // Reemplaza saltos de línea con espacios
