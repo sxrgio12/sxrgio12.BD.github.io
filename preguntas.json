@@ -995,7 +995,6 @@
     "opciones": [
       "nombre_variable <tipo_dato>\\:\\=valor_inicial;",
       "nombre_variable ;",
-      "nombre_variable ;",
       "Ambas son correctas."
     ]
   },
