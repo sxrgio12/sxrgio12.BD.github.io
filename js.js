@@ -31,6 +31,12 @@ function normalizar(texto) {
  * @param {string} respuestaCorrecta - Respuesta correcta de la pregunta.
  * @returns {boolean} - `true` si la respuesta es correcta, `false` en caso contrario.
  */
+//Añadido abajo
+if (!preguntaActual || !preguntaActual.opciones) {
+    alert("Error interna: Pregunta no válida.");
+    return;
+}
+//Añadido arriba
 function esRespuestaCorrecta(respuestaUsuario, pregunta) {
     const opcionCorrecta = pregunta.opciones[pregunta.respuesta_correcta_index];
     return respuestaUsuario === opcionCorrecta;
