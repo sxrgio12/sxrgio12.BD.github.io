@@ -846,15 +846,6 @@
     ]
   },
   {
-    "pregunta": "¿Qué significa el término NoSQL en el contexto de las bases de datos?",
-    "respuesta": "Not Only SQL.",
-    "opciones": [
-      "No está relacionado con SQL.",
-      "No-SQL.",
-      "Not Only SQL."
-    ]
-  },
-  {
     "pregunta": "En un procedimiento almacenado, ¿Cómo podemos almacenar el valor de una consulta SELECT en una variable?",
     "opciones": [
       "valor.",
