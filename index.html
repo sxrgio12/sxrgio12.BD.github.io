@@ -143,12 +143,9 @@
 <body>
   <div style="display:flex; flex-direction: column">
     <div class="card">
-      <h2 id="pregunta">Indica la sentencia correcta para saber el número de alumnos:</h2>
-      <div id="opciones"><label class="option"><input type="radio" name="opcion" value=""
-            data-texto="SELECT AVG(DNI) FROM Alumnos;"> SELECT AVG(DNI) FROM Alumnos;</label><label
-          class="option"><input type="radio" name="opcion" value="" data-texto="SELECT COUNT(DNI) FROM Alumnos;"> SELECT
-          COUNT(DNI) FROM Alumnos;</label><label class="option"><input type="radio" name="opcion" value=""
-            data-texto="Ninguna es correcta."> Ninguna es correcta.</label></div>
+     <h2 id="pregunta">¿Qué función SQL debemos usar para obtener el salario más alto de la empresa?</h2>
+            <div id="opciones"><label class="option"><input type="radio" name="opcion" value="" data-texto="MAX()"> MAX();</label><label class="option"><input type="radio" name="opcion" value="" data-texto="AVG();"> AVG();</label><label class="option"><input type="radio" name="opcion" value="" data-texto="sum();"> sum();</label>
+      </div>
       <button onclick="siguiente()" style="display: inline-block;">Corregir</button>
       <button id="reiniciar" onclick="reiniciarEstadisticas()">Reiniciar estadísticas</button>
       <div id="resultado"></div>
@@ -160,12 +157,12 @@
       <input type="text" id="search" placeholder="Busca aquí…"
         style="width:100%; padding:0.8rem; margin-bottom:1rem; border-radius:6px; border:1px solid #ccc;">
       <div id="question-list">
-
+       
 
       </div>
     </div>
   </div>
-  <script src="js.js"></script>
+  <script src="./js.js"></script>
 
 </body>
 
