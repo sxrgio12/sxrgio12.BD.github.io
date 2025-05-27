@@ -846,12 +846,12 @@
     ]
   },
   {
-    "pregunta": "En un procedimiento almacenado, ¿Cómo podemos almacenar el valor de una consulta SELECT en una variable?",
+    "pregunta": "¿Qué significa el término NoSQL en el contexto de las bases de datos?",
+    "respuesta": "Not Only SQL.",
     "opciones": [
-      "valor.",
-      "Declarando primero la variable y utilizando luego la cláusula SELECT INTO para asignarle el valor.",
-      "Declarando la variable y asignándole el valor de esta forma: variable:",
-      "No es posible almacenar el valor de una variable dentro de un procedimiento."
+      "No está relacionado con SQL.",
+      "No-SQL.",
+      "Not Only SQL."
     ]
   },
   {
